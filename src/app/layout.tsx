@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Home Forms in Next.js",
+  title: "Forms in Next.js",
   description: "Multiple way to implement forms in Next.js",
 };
 
