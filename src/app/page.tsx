@@ -31,6 +31,12 @@ export default function Home() {
         >
           Form With React Hook Form and Zod Server
         </Link>
+        <Link
+          href="/form-multi-steps"
+          className="px-6 py-3 bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65 text-center"
+        >
+          Form With Multi Steps
+        </Link>
       </nav>
     </main>
   );
