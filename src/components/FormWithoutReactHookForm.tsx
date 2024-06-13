@@ -36,6 +36,7 @@ function FormWithoutReactHookForm() {
       "Confirm Password:",
       confirmPassword
     );
+    alert("Form submitted");
   };
 
   return (

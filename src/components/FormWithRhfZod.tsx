@@ -20,7 +20,7 @@ export default function FormWithRhfZod() {
     // ...
     console.log(data);
     await new Promise((resolve) => setTimeout(resolve, 1000));
-
+    alert("Form submitted");
     reset();
   };
 

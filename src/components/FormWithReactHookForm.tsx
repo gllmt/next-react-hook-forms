@@ -17,6 +17,7 @@ export default function FormWithReactHookForm() {
     // ...
     console.log(data);
     await new Promise((resolve) => setTimeout(resolve, 1000));
+    alert("Form submitted");
 
     reset();
   };
@@ -71,9 +72,13 @@ export default function FormWithReactHookForm() {
       <button
         disabled={isSubmitting}
         type="submit"
-        className="bg-blue-500 disabled:bg-gray-500 py-2 rounded text-white"
+        className="px-4 py-2 bg-blue-800 text-white disabled:bg-gray-500 rounded group flex items-center justify-center"
       >
-        Submit
+        {isSubmitting ? (
+          <div className="h-5 w-5 animate-spin rounded-full border-b-2 border-white"></div>
+        ) : (
+          <>Submit</>
+        )}
       </button>
     </form>
   );

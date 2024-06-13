@@ -53,7 +53,7 @@ export default function FormWithRhfZodServer() {
         alert("Something went wrong, Form is not submitted");
       }
     }
-
+    alert("Form submitted");
     reset();
   };
 
